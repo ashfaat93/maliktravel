@@ -1,0 +1,10 @@
+
+    .myTable {
+        width: 100%;
+        table-layout: fixed;
+      }
+      .myTable tr th {
+        text-align: left;
+        background: gray;
+        color: white;
+      }
