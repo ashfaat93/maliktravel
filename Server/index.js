@@ -12,8 +12,8 @@ app.use(cors());
 
 const dbcon= mysql.createConnection(
         {
-            // host:'localhost',user:'root',password:'Pakistan@123',database:'travelagency'
-            host:'eu-cdbr-west-03.cleardb.net',user:'bfb5047ce5f59c',password:'7403c3f5',database:'heroku_5125959cae4835c'
+            host:'localhost',user:'root',password:'Pakistan@123',database:'travelagency'
+            // host:'eu-cdbr-west-03.cleardb.net',user:'bfb5047ce5f59c',password:'7403c3f5',database:'heroku_5125959cae4835c'
 
         }
 );
