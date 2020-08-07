@@ -1,0 +1,15 @@
+{
+  "name": "TravelAgency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "src":"cd travelagency  && npm start",
+    "server":"cd Server && nodemon index.js",
+    "start_full_app":"concurrently \"npm run server\" \"npm run src\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
