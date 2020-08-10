@@ -5,12 +5,13 @@
   "main": "index.js",
   "homepage": "http://ashfaat93.github.io/maliktravel",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "src": "cd travelagency  && npm start",
     "server": "cd Server && nodemon index.js",
     "start_full_app": "concurrently \"npm run server\" \"npm run src\"",
-    "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+  
   },
   "keywords": [],
   "author": "",
