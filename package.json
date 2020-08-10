@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "http://ashfaat93.github.io/maliktravel",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "src":"cd travelagency  && npm start",
-    "server":"cd Server && nodemon index.js",
-    "start_full_app":"concurrently \"npm run server\" \"npm run src\""
+    "src": "cd travelagency  && npm start",
+    "server": "cd Server && nodemon index.js",
+    "start_full_app": "concurrently \"npm run server\" \"npm run src\"",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
